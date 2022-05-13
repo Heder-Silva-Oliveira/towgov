@@ -1,0 +1,79 @@
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+
+header .container{
+    padding-top: .5cm;
+    padding-bottom: 2cm;
+    background-color: #181920;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    padding-top: 1cm;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+.conteudo{
+    width: auto;
+    height:800px;
+    background-color:#3e4d5f;
+    
+    
+}
+.footer{
+    width:auto;
+    height:100px;
+    background-color:#181920;
+    }
+
+.row{
+    margin-top: 5px;
+    width: 4cm;
+    height: 790px;
+    background-color: #181920;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+}
+
+.campologos{
+    margin-top: -20.9cm;
+    margin-left: 4.1cm;
+    width: auto;
+    height: 5cm;
+    background-color: rgb(54, 53, 53);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+}
+
+.campologos a{
+    display: inline-block;
+    color:#fff ;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.row a{
+    display: list-item;
+    color: #fff;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 15px;
+}
