@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(67, 77, 77);
+}
+
+.formulario{
+    color: rgb(49, 34, 14);
+    position: absolute;
+    width: 300px;
+    height: 400;
+    top: 30%;
+    left: 15%;
+    
+    
+}    
+
+legend {
+    color: #f5f6fa;
+    border: 1px solid  #696b74;
+    padding: 4px;
+    background-color: #696b74;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+}
+
+fieldset{
+    border: 2px solid #393a3e;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+
+}
+
+
+.inputBox{
+    width: auto;
+
+}
+
+.inputx{
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    width: 400px;
+}
+
+.caixa{
+    height: 100px;
+    width: 400px;
+    border-radius: 8px;
+    
+}
+
+form [type="submit"]{
+    color: #f5f6fa;
+    display:block ;
+    background-color: #393a3e;
+    font-size: 15px;   
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #787da0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, .5);
+    
+}
+

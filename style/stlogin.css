@@ -1,5 +1,5 @@
 body{
-    background-color: #3e4d5f;
+    background-color: #f5f6fa;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
@@ -54,6 +54,10 @@ form [type="submit"]{
     font-weight: bold;
     cursor: pointer;
     
+}
+
+form [type="submit"]:hover{
+    background-color: #4758d6;
 }
 
 p{

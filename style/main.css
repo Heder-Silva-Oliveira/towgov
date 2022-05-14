@@ -8,7 +8,7 @@ body{
 header .container{
     padding-top: .5cm;
     padding-bottom: 2cm;
-    background-color: #181920;
+    background-color: #1d1a21;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
@@ -31,7 +31,7 @@ header nav a:hover{
 .conteudo{
     width: auto;
     height:800px;
-    background-color:#3e4d5f;
+    background-color:#f5f6fa;
     
     
 }
@@ -45,7 +45,7 @@ header nav a:hover{
     margin-top: 5px;
     width: 4cm;
     height: 790px;
-    background-color: #181920;
+    background-color: #393a3e;
     box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
 }
 
