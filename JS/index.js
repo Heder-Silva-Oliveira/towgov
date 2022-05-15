@@ -1,4 +1,4 @@
 function login() {
-    open.href = 'login.html';
+    window.location.href = 'login.html';
     
 }

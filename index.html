@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     
     <title>Two Governamental</title>
@@ -18,7 +19,35 @@
                 <a href="">Empresa</a>
                 <a href="">Consultas</a>
                 <a href="">Serviços</a>
-                <a href="" onclick="login()">Entrar</a>
+                <button id="login-show">Entrar</button>
+
+                <div id="login-modal">
+                    <div class="modal">
+                        <div class="top-form">
+                            <div class="close-modal">
+                            &#10006;
+                            </div>
+                        </div>
+                        <div class = "login-form">
+                            <div>
+                                <img src="">
+                            </div>
+                            
+                            <form action="#"> 
+                                <input id="campo" type="text" nome="CPF" placeholder="CPF" autofocus>
+                                <input id="campo" type="password" nome="Senha" placeholder="Sua senha" autofocus>
+                                <input id="botton" type="submit" value="entrar">
+                                <button onclick="login()">Login</button>
+                            
+                
+                            </form>
+                            <p>Esqueceu sua senha?<a href=""> Recuperar</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
             </nav>
             <div class="icon">
             
@@ -45,6 +74,19 @@
     <div class="footer"></div>
 
     <script src="JS/index.js"></script>
+    <script type="text/javascript">
+        $(function() {
+    
+          $('#login-show').click(function() {
+            $('#login-modal').fadeIn().css("display", "flex");
+          });
+    
+          $('.close-modal').click(function() {
+            $('#login-modal').fadeOut();
+          });
+        });
+      </script>
+
 </body>    
     
             
