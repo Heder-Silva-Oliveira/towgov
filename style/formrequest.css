@@ -5,7 +5,7 @@ body{
 .formulario{
     color: rgb(49, 34, 14);
     position: absolute;
-    width: 300px;
+    width: 800px;
     height: 400;
     top: 30%;
     left: 15%;
@@ -23,15 +23,16 @@ legend {
 }
 
 fieldset{
-    border: 2px solid #393a3e;
+    border: 2px solid #e4dfdf;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+    box-shadow: 0 2px 5px rgb(88, 86, 86);
 
 }
 
 
 .inputBox{
     width: auto;
+    
 
 }
 
@@ -39,15 +40,24 @@ fieldset{
     border-radius: 5px;
     padding: 5px;
     outline: none;
-    width: 400px;
+    width: 97%;
+    border-color: #e4dfdf;
+    
+
 }
 
 .caixa{
-    height: 100px;
-    width: 400px;
+    display: block;
+    height: 400px;
+    width: 98%;
     border-radius: 8px;
+    border-color: #e4dfdf;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
+
+
 
 form [type="submit"]{
     color: #f5f6fa;

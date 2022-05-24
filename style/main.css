@@ -2,23 +2,27 @@ body{
     background: var(--preta);
     font-family: 'Arial', Times, serif;
     color: white;
+    
 }
 
 
 header .container{
     padding-top: .5cm;
     padding-bottom: 2cm;
-    background-color: #1d1a21;
+    background-image: linear-gradient(125deg, #f6f7fb 70%, #62ba6e 30%, #83c331 );
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
     justify-content: space-between;
+    box-shadow: 0 2px 15px rgb(0, 0, 0, .5);
+    border-radius: 8px;
+    
 }
 
 
 header nav a{
     text-decoration: none;
-    color: #AAA;
+    color: #29232e;
     padding-top: 1cm;
     margin-right: 10px;
 }
@@ -39,6 +43,7 @@ header nav a:hover{
     width:auto;
     height:100px;
     background-color:#181920;
+    border-radius: 8px;
     }
 
 .row{
@@ -47,6 +52,7 @@ header nav a:hover{
     height: 790px;
     background-color: #393a3e;
     box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+    border-radius: 8px;
 }
 
 .campologos{
@@ -82,7 +88,7 @@ header nav a:hover{
     outline: none;
     border: none;
     background-color: rgb(0, 0, 0, 0);
-    color: #AAA;
+    color: #29232e;
     font-size: 16px;
     margin-right: 15px;
 }
@@ -130,13 +136,12 @@ header nav a:hover{
   
   
 .login-form form input{
-    background-color: #252A34;  
     width: 75%;
     margin-bottom: 20px;
     padding: 12px 12px;
     box-sizing: border-box;
     border: 1px solid #d0e5d8;
-    border-radius: 3px;
+    border-radius: 18px;
   }
 
 /*letras dentro da caixa*/
@@ -149,6 +154,7 @@ header nav a:hover{
  /*botão enviar*/ 
 #botton{
     width: 75%;
+    padding: 8px;
     display:block ;
     color: #CBD0F7;
     border: none;
@@ -166,8 +172,16 @@ header nav a:hover{
     background-color: #4758d6;
 }
 
-#campo{
+#cpf{
     outline: none;
     border: none;
     background-color: #3f4552;
+    color: #AAA;
+}
+
+#senha{
+    outline: none;
+    border: none;
+    background-color: #3f4552;
+    color: #AAA;
 }
