@@ -68,8 +68,11 @@ header nav a:hover{
     display: inline-block;
     color:#fff ;
     margin-top: 80px;
-    margin-left: 200px;
+    margin-left: 180px;
+   
 }
+
+
 .row a{
     display: list-item;
     color: #fff;
@@ -185,3 +188,11 @@ header nav a:hover{
     background-color: #3f4552;
     color: #AAA;
 }
+
+
+img {
+    
+    border-radius: 4px;
+    padding: 5px;
+    width: 60px;
+    }
