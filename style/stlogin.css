@@ -1,73 +1,97 @@
 body{
-    background-color: #3e4d5f;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+    
 }
 
-.area-login{
+
+header .container{
+    padding-top: .5cm;
+    padding-bottom: .5cm;
+    background-image: linear-gradient(125deg, #f6f7fb 70%, #62ba6e 30%, #83c331 );
     display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.login{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #181920;
-    border-radius: 10px;
-    width: 400;
-    height: 400;
-    padding: 35px;
-}
-
-.login form{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-
-.login input{
-    margin-top: 10px;
-    background-color: #252A34;
-    color: #CBD0F7;
-    border: none;
-    height: 45px;
-    outline: none;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 0 2px 15px rgb(0, 0, 0, .5);
     border-radius: 8px;
-    padding-left: 10px;
-}
-
-.input::placeholder{
-    color: #CBD0F7;
-    font-size: 14px;
     
 }
 
-form [type="submit"]{
-    display:block ;
-    background-color: #5568FE;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    
-}
 
-form [type="submit"]:hover{
-    background-color: #5568FE;
-}
-
-p{
-    color: #CBD0F7;
-
-
-}
-
-a{
-    color:  #5568FE;
+header nav a{
+    display: inline-block;
     text-decoration: none;
-    margin-left: 10px;
+    color: #29232e;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+.conteudo{
+    width: auto;
+    height:800px;
+    background-color:#f5f6fa;
+    
+    
+}
+#logout{
+    outline: none;
+    border: none;
+    background-color: rgb(0, 0, 0, 0);
+    color: #29232e;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+#logout:hover{
+    color: #fff;
+}
+
+.footer{
+    width:auto;
+    height:100px;
+    background-color:#181920;
+    border-radius: 8px;
+    }
+
+.row{
+    margin-top: 5px;
+    width: 4cm;
+    height: 790px;
+    background-color: #393a3e;
+    box-shadow: 0 2px 5px #181920;
+    border-radius: 8px;
+}
+
+
+
+#icons{
+    display: block;    
+    filter: invert(99%) sepia(1%) saturate(7%) hue-rotate(160deg) brightness(115%) contrast(100%);
+    display: block;
+    width: 35px;
+   margin-left: 15px;
+    margin-top: 25px;
+    padding: 45px;
+}
+
+
+.nav-item{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #f5f6fa;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all;
 }
