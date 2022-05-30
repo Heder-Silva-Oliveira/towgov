@@ -5,7 +5,8 @@ function login() {
     if (user === "111.111.111-11" || user === "222.222.222-22"){
         window.location.href = 'formrequest.html'
     } else if (user === "999.999.999-99"  && password === '123456')
-    {window.location.href = 'login.html'};
+    {window.location.href = 'login.html'}
+    else{alert('Você não tem acesso')};
    
 }
 
