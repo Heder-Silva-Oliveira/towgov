@@ -28,20 +28,27 @@
                             &#10006;
                             </div>
                         </div>
+                        <h1>Login</h1>
                         <div class = "login-form">
+
                             <div>
                                 <img src="">
                             </div>
-                            
                             <form action="#"> 
+                             
                                 <input id="cpf" type="text" nome="CPF" placeholder="CPF" maxlength="14" autofocus>
+                                <img id ="erro" src="icons/381599_error_icon.png">
                                 <input id="senha" type="password" nome="Senha" placeholder="Sua senha" autofocus>
-                                <input id="botton" type="button" onclick="login()" value="entrar">
+                                <img id ="erro" src="icons/381599_error_icon.png">
+                                <input id="logar" type="button" onclick="login()" value="entrar">
                                 
                             
                 
                             </form>
+                            
                             <p id="esque">Esqueceu sua senha? <a id="recup" href=""> Recuperar</a></p>
+                            
+    
                         </div>
                     </div>
                 </div>
@@ -79,6 +86,8 @@
     
           $('#login-show').click(function() {
             $('#login-modal').fadeIn().css("display", "flex");
+            document.getElementById('cpferro').id = "cpf"
+            document.getElementById('errohid').id = "erro"
           });
     
           $('.close-modal').click(function() {

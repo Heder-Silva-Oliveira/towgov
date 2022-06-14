@@ -1,4 +1,5 @@
 function login() {
+    const cpf = document.getElementById('cpf')
     const user = document.querySelector('#cpf').value;
     const password = document.querySelector('#senha').value;
 
@@ -6,11 +7,16 @@ function login() {
         window.location.href = 'formrequest.html'
     } else if (user === "999.999.999-99"  && password === '123456')
     {window.location.href = 'login.html'}
-    else{alert('Você não tem acesso')};
+    else{errorValidation()};
    
 }
 
+function errorValidation(){
+    document.getElementById('cpf').id = "cpferro"
+    document.getElementById('erro').id = "errohid"
+    document.getElementById('cpf').value='';
 
+}
 
 
 const input = document.querySelector('#cpf')

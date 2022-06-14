@@ -164,6 +164,7 @@ header nav a:hover{
     border: 1px solid #d0e5d8;
     border-radius: 18px;
   }
+   
 
 /*letras dentro da caixa*/
 .login-form form input::placeholder{
@@ -172,13 +173,63 @@ header nav a:hover{
     
     
 }  
+ /*botão enviar*/ 
+#logar{
+    width: 75%;
+    padding: 8px;
+    display:block ;
+    color: #4d614d;
+    border: none;
+    margin-left: 12.5%;
+    background-color: #62ba6e;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    
+    
+}
+#entar{
+    color: #393a3e;
+}
 
+h1{
+    color: #181920;
+    margin-top: 0px;
+}
+
+#logar:hover{
+    background-color: #83c331;
+    
+}
 
 #cpf{
     outline: none;
     border: none;
     background-color: #3f4552;
     color: #AAA;
+}
+
+#cpferro{
+    outline: none;
+    box-shadow: 0 2px 5px red;
+    background-color: #3f4552;
+    color: #AAA;
+}
+
+#erro{
+    width: 20px;
+    position:absolute;
+    margin-top: 7px;
+    visibility:hidden;
+}
+
+#errohid{
+    width: 20px;
+    position:absolute;
+    margin-top: 7px;
+    visibility: visible;
 }
 
 #senha{
@@ -190,7 +241,6 @@ header nav a:hover{
 
 
 img {
-    
     border-radius: 4px;
     padding: 5px;
     width: 60px;

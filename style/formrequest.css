@@ -73,10 +73,12 @@ fieldset{
     text-align: center;
     font-weight: bold;
     cursor: pointer;
+    outline: none;
     
     
 }
 
 #botton:hover{
     background-color: #83c331;
+    color:darkolivegreen;
 }
