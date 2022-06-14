@@ -57,18 +57,26 @@ fieldset{
     
 }
 
-
-
-form [type="submit"]{
-    color: #f5f6fa;
+    
+ /*botão enviar*/ 
+ #botton{
+    border-radius: 5px;
+    width: 25%;
+    padding: 8px;
     display:block ;
-    background-color: #393a3e;
-    font-size: 15px;   
+    color: #4d614d;
+    border: none;
+    margin-left: 5%;
+    background-color: #62ba6e;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
     font-weight: bold;
     cursor: pointer;
-    border: 1px solid #787da0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(0, 0, 0, .5);
+    
     
 }
 
+#botton:hover{
+    background-color: #83c331;
+}

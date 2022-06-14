@@ -44,17 +44,19 @@
                     <br>
                     <div class="inputBox">
                       
-                        <input type="text" nome="telefone" class="inputx" placeholder="Assunto" autofocus>
+                        <input id = "tituloPedido" type="text" class="inputx" placeholder="Assunto" autofocus>
                         <br><br>
-                        <textarea nome="caixatx" class="caixa" placeholder="Seu pedido" wrap="hard"></textarea>
+                        <textarea id ="text"  class="caixa" placeholder="Seu pedido" wrap="hard"></textarea>
                         
                         <br><br>
-                        <input type="submit" value="Enviar">
-                    </div>
+                        <input id="botton" onclick="pedido.salvar()" value="Enviar">
+                    </div> 
                 </fieldset>
             </form>            
         </div>
+     
     </section>
     <div class="footer"></div>
+    <script src="JS/form.js"></script>
 </body>
 </html>

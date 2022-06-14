@@ -95,3 +95,15 @@ header nav a:hover{
     position: relative;
     transition: all;
 }
+
+.content{
+    color: #62ba6e;
+    margin-left: 200px;
+    margin-top: -750px;
+}
+
+#tabela{
+    background-color: #f2f2f2;
+    border: none;
+    width: 500px;
+}
