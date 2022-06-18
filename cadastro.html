@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/cadatro.css">
+    <script src="https://kit.fontawesome.com/043c10cdb9.js" crossorigin="anonymous"></script>
+ 
+
+    
+    <title>Cadatro</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <nav>
+                <a href="">Empresa</a>
+                <a href="">Consultas</a>
+                <a href="">Serviços</a>
+                <button id="logout" type="button" onclick="logout()"><i class="fa-solid fa-right-from-bracket"></i></button>
+     
+
+            </nav>
+            <div class="log">
+        
+            </div>
+        </div>
+    </header>
+    <div class="conteudo">
+        <div class="row">
+            <ul class="nav-item">
+                <li class="nav-item">
+                    <a class="nav-link" href="adm.html">
+                        <img id="icons" src="icons/bars-solid.svg" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                        <img id="icons" src="icons/envelope-solid.svg" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                        <img id="icons" src="icons/adicionar.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                        <img id="icons" src="icons/gear-solid.svg" alt=""></a>
+                </li>
+            </ul>
+           
+        </div>
+    </div>
+    <section class="area-cadastro">
+        <div class="formulario">
+            <form action=""> 
+                <fieldset>
+                    <legend><b>Cadatro novo usuário</b></legend>
+                    <br>
+                <div class="inputBox">
+                        <label for="cpf">CPF</label>
+                        <input id = "cpf" name="cpf" placeholder="Digite o CPF do usuário" maxlength="14" autofocus>
+                        <br><br>
+                        <label for="senha">Cadastre a senha so usuário:</label>
+                        <input id ="senha" nome="senha" placeholder="Digite a senha " ></input>
+                        <br><br>
+                        <label for="cel">Qual é o telefone para contato?</label>
+                        <input id ="cel" nome="celular" placeholder="Digite o numero e telefone" ></input>
+                        <br><br>
+                        <label for="text">Qual é a prefeitura cadatrada?</label>
+                        <input id ="text" nome="prefeitura" placeholder="Digite o nome a prefeitura" ></input>
+                        <br><br>
+                        <label for="text">Qual departamento pertence o usuário?</label>
+                        <input id ="text" nome="departamento" placeholder="Digite o departamento" ></input>
+                        <br><br>
+                        <label for="text">Qual função o usuário ocupa?</label>
+                        <input id ="text" nome="funcao" placeholder="Digite a função" ></input>
+                        <br><br>
+                        <label for="text">Qual é o e-mail do epartamento?</label>
+                        <input id ="text" nome="email_dep" placeholder="Digite o e-mail do departamento" ></input>
+                        <br><br>
+                        <label for="text">Qual é o e-mail pessoal do usuário?</label>
+                        <input id ="text" nome="email_pes" placeholder="Digite o e-mail pessoal" ></input>
+                        <br><br>
+                       
+                        
+                        <input id="botton" type="submit" name="submit" value="Cadastrar">
+                        <input id="botton" type="submit" value="Cancelar">
+                    </div> 
+                </fieldset>
+            </form>            
+        </div>
+    </section>
+    <div class="footer"></div>
+    <script src="JS/adm.js"></script>
+</body>    
+    
+            
+       
+</html>

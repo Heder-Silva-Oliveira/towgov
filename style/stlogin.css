@@ -58,12 +58,12 @@ header nav a:hover{
     height:100px;
     background-color:#181920;
     border-radius: 8px;
-    }
+}
 
 .row{
     margin-top: 5px;
     width: 4cm;
-    height: 790px;
+    height: 900px;
     background-color: #393a3e;
     box-shadow: 0 2px 5px #181920;
     border-radius: 8px;
@@ -76,7 +76,7 @@ header nav a:hover{
     filter: invert(99%) sepia(1%) saturate(7%) hue-rotate(160deg) brightness(115%) contrast(100%);
     display: block;
     width: 35px;
-   margin-left: 15px;
+    margin-left: 15px;
     margin-top: 25px;
     padding: 45px;
 }

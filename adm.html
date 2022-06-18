@@ -20,7 +20,7 @@
                 <a href="">Empresa</a>
                 <a href="">Consultas</a>
                 <a href="">Serviços</a>
-                <button id="logout"><i class="fa-solid fa-right-from-bracket"></i></button>
+                <button id="logout" type="button" onclick="logout()"><i class="fa-solid fa-right-from-bracket"></i></button>
      
 
             </nav>
@@ -41,30 +41,21 @@
                         <img id="icons" src="icons/envelope-solid.svg" alt=""></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">
+                        <img id="icons" src="icons/adicionar.png" alt=""></a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="">
                         <img id="icons" src="icons/gear-solid.svg" alt=""></a>
                 </li>
             </ul>
            
         </div>
-        
-        <div class="content">
-            <table id="tabela" border="1">
-                <thead>
-                    <th class="center">ID</th>
-                    <th class="center">Assunto</th>
-                    <th class="center">Pedido</th>
-                </thead>
-                <tbody id="tbody">
-                    
-                </tbody>
-            </table>
-            
-        </div>
+      
     </div>
        
     <div class="footer"></div>
-    <script src="JS/form.js"></script>
+    <script src="JS/adm.js"></script>
 
 </body>    
     
