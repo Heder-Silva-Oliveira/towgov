@@ -1,0 +1,23 @@
+{
+  "name": "towgov",
+  "version": "1.0.0",
+  "description": "Gerenciamento de documentos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heder-Silva-Oliveira/TowGov.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heder-Silva-Oliveira/TowGov/issues"
+  },
+  "homepage": "https://github.com/Heder-Silva-Oliveira/TowGov#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
