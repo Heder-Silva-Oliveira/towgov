@@ -1,0 +1,79 @@
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+    background-color: #f1f1f1;
+    margin-top: 8px;
+    box-shadow: 0 2px 15px rgb(0, 0, 0, .5);
+    border-radius: 8px;
+
+
+}
+
+
+.title{
+    margin-top: -95px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+#login .form{
+    background-color: #FFF;
+    width: 100%;
+    max-width: 380px;
+    padding: .5rem;
+    box-shadow: 0 2px 15px rgb(0, 0, 0, .5);
+    border-radius: 5px;
+    height: 300px;    
+}
+
+.form  .field{
+    padding-bottom: .1rem;
+}
+
+.form label{
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+   
+
+}
+
+.form input{
+    width: 100%;
+
+    margin-bottom: 20px;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border: 1px solid #f5f6fa;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 2px 15px rgb(0, 0, 0, .5);
+}
+
+.form input::placeholder{
+    color: #CBD0F7;
+    font-size: 14px;
+}
+.but{
+    width: 75%;
+    padding: 8px;
+    display:block ;
+    color: #4d614d;
+    border: none;
+    margin-left: 12.5%;
+    margin-top: 15px;
+    background-color: rgb(77, 158, 224);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+  
+}
+.but:hover{
+    background-color: rgb(0, 110, 220);
+}
