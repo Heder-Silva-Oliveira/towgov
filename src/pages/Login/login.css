@@ -35,6 +35,7 @@
 }
 
 .form label{
+    padding-top: 8px;
     display: block;
     font-family: 'Varela Round', sans-serif;
    

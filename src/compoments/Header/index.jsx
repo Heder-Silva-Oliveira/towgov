@@ -21,6 +21,9 @@ class Header extends Component{
                                 <Link to="/admin">Admin</Link>  
                             </li>
                             <li className="item">
+                                <Link to="/register">Register</Link>  
+                            </li>
+                            <li className="item">
                                 <Link to="/login">Login</Link>  
                             </li>
                         </ul>                    

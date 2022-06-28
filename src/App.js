@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Admin from './pages/Admin'
 import Users from './pages/Users'
 import LoginPage from './pages/Login'
+import Register from './pages/Register/Registry'
 
 import {BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/users" element={<Users />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/register" element={<Register />} />
             <Route path="/login" element={<LoginPage />} />
           </Routes>          
         </div>

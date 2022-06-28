@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Header from '../../compoments/Header'
-import "./styles.css"
+import "./login.css"
 
 const LoginPage = () => {
     const [cpf, setCpf] = useState("");
