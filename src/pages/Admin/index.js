@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Footer from '../../compoments/Footer'
-import Column from '../../compoments/Column';
+import ColumnAdm from '../../compoments/ColumnAdm';
 import Header from '../../compoments/Header';
 
-class Home extends Component{
+class Admin extends  React.Component{
    render(){
        return(
            <>
                 <Header/>
-                <Column/>
+                <ColumnAdm/>
                 <Footer/>
                             
            </>
@@ -16,4 +16,4 @@ class Home extends Component{
    }
 }
 
-export default Home
+export default Admin
