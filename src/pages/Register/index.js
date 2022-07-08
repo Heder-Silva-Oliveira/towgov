@@ -3,7 +3,7 @@ import Header from "../../compoments/Header";
 import Footer from "../../compoments/Footer";
 import {CpfMask} from "../Login/styles"
 
-import {Inputs, Inputm, Button, H1, Form, Div} from "./styles"
+import {Inputs, Inputm, Box, Button, H1, Form, Div} from "./styles"
 
 
 
@@ -29,7 +29,11 @@ constructor(props) {
         <Header/>                         
              <Form>
                 <Div>
-                    <H1>Cadastro</H1>           
+                    <H1>Cadastro</H1>
+                    <Box>
+                     <div>
+                            
+                        <div>                            
                             <label for="cpf">CPF</label>
                             <br></br>
                             <Inputm id = "cpf"
@@ -39,20 +43,40 @@ constructor(props) {
                             onChange={this.handlechange}
                             placeholder="Digite seu cpf"                                             
                             autofocus></Inputm>
-                            <br></br>
+                            <br></br>                          
+                        </div>           
 
-                        <label for="senha">Cadastre sua senha:</label>
-                        <br></br>
-                        <Inputm id ="senha"  type="password"  nome="senha" placeholder="Digite a senha " ></Inputm>
-                        <br></br>
-                        <label for="senhatwo">Confirme a senha:</label>
-                        <br></br>
-                        <Inputm id ="senhatwo"  type="password"  nome="senha" placeholder="Digite a senha " ></Inputm>
-                        <br></br>
+                    </div>
+                    <div>
+                        <div>
                         <label for="cel">Qual seu numero para contato?</label>
                         <br></br>
                         <Inputm id ="cel" nome="celular" placeholder="Digite o numero e telefone" ></Inputm>
-                        <br></br>
+                                                    
+                        </div>
+                    </div>
+                    
+                    </Box>
+                    <Box>
+
+                    <div>
+                        <div>
+                            <label for="senha">Cadastre sua senha:</label>
+                            <br></br>
+                            <Inputm id ="senha"  type="password"  nome="senha" placeholder="Digite a senha " ></Inputm>
+                        </div>
+                    </div>
+
+                        <div>
+                            <div>
+                            <label for="senhatwo">Confirme a senha:</label>
+                            <br></br>
+                            <Inputm id ="senhatwo"  type="password"  nome="senha" placeholder="Digite a senha " ></Inputm>
+                       
+                            </div>
+                        </div>
+
+                    </Box> 
                         <label for="textpref">Identifique a prefeitura:</label>
                         <br></br>
                         <Inputs id ="textpref" nome="prefeitura" placeholder="Digite o nome a prefeitura" ></Inputs>

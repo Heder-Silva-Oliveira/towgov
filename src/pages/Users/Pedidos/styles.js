@@ -4,7 +4,7 @@ export const Box = styled.div`
     display: flex;
     width: 100%;
     height: 100vw;
-    background-color: blue;
+    background-color: #f1fbff;
     align-items:center ;
     justify-content: center;
 `;
@@ -12,22 +12,21 @@ export const Box = styled.div`
 export const Form = styled.form`
     width: 80%;
     height: 80%;
-    background-color: aliceblue;
+    background-color: #f1fbff;
 `;
 
 export const Field = styled.fieldset`
     border: 2px solid #e4dfdf;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(88, 86, 86);
 
 `;
 
 export const Legend = styled.legend`
-    color: #f5f6fa;
-    border: 1px solid  #696b74;
+    color: #f1fbff;
+    border: 1px solid  #46555a;
+    font-size: 15px;
     padding: 4px;
-    background-color: #696b74;
-    border-radius: 8px;
+    background-color: #46555a;
     box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
     font-family: 'Varela Round', sans-serif;
 
@@ -46,7 +45,7 @@ export const Input = styled.input`
     width: 70%;
     border-color: #e4dfdf;
     font-family: 'Varela Round', sans-serif;
-    color: #1e2b36;
+    color: #32343f;
 `;
 
 export const TexteArea = styled.textarea`
@@ -57,7 +56,7 @@ export const TexteArea = styled.textarea`
     border-color: #e4dfdf;
     outline: none;
     font-family: 'Varela Round', sans-serif;
-    color: #1e2b36;
+    color: #32343f;
     resize: none;
 
 `;
@@ -67,18 +66,37 @@ export const Button = styled.button`
     border-radius: 5px;
     width: 15%;
     padding: 8px;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
     display:block ;
-    color: #4d614d;
+    color: #e3f7ff;
     border: none;
     margin-left: 5%;
-    background-color: #62ba6e;
+    background-color: #313b3f;
     font-size: 20px;
     text-align: center;
     cursor: pointer;
     outline: none;
     :hover{
-        background-color:#fff;
+        background-color:#46555a;
     }
+`;
+
+export const Label = styled.label`
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 15px;
+
+`;
+export const Span = styled.span`
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    margin-left:555px;
+
+`;
+
+export const File = styled.input`
+    padding: 10px 10px 10px 10px;
+    margin-left:550px;
+    outline: none;
 `;

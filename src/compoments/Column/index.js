@@ -37,7 +37,7 @@ class Column extends React.Component{
                                   <Span>Arquivos</Span>                          
                                 </Li>
                              </Link>
-                             <Link to="/users" style={{ textDecoration: 'none' }}> 
+                             <Link to="/avisos" style={{ textDecoration: 'none' }}> 
                               <Li>
                                <Icon><BsExclamationTriangle/></Icon> 
                                   <Span>Avisos</Span>                          

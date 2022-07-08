@@ -6,6 +6,7 @@ import LoginPage from './pages/Login'
 import Register from './pages/Register'
 import Pedidos from './pages/Users/Pedidos'
 import Arquivos from './pages/Users/Arquivos'
+import Avisos from './pages/Users/Aviso'
 
 import {BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/pedidos" element={<Pedidos />} />
             <Route path='/arquivos' element={<Arquivos />} />
+            <Route path='/avisos' element={<Avisos />} />
           </Routes>          
         </div>
       </Router>

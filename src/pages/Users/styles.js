@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const Page = styled.div`
     display: flex;
-    width: 44cm;
+    width: 100%;
     height: 100vw;
-    background-color: bisque;
-    border-radius: 8px;
-
-    
+    background-color: #f1fbff;
+    align-items:center ;
+    justify-content: center;    
     
 `;

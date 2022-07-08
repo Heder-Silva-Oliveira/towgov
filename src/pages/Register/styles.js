@@ -1,5 +1,16 @@
 import styled from "styled-components";
 
+export const Box = styled.div`
+margin-left: 20%;
+    align-items: center;
+    text-align: center;
+    background-color:  #23333f;
+    padding: 5px;
+    width: 58%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+`;
+
 export const H1 =styled.h1`
     font-family: 'Varela Round', sans-serif;
 	text-align: center;
@@ -28,7 +39,7 @@ export const Inputm = styled.input`
     color:  #f6f5f7;
     box-shadow: inset 15px 15px 30px #1e2b36, inset -15px -15px 30px #283b48;
     background:  #23333f;
-	width: 30%;
+	width: 90%;
 	margin-bottom: 20px;
     padding: 8px 20px;
 	box-sizing: border-box;
@@ -60,10 +71,11 @@ export const Button =styled.button`
     color: #11f7e2;
     margin-top: 40px;
     border-radius: 22px;
-    background: linear-gradient(145deg, #253743, #202e39);   
+    background: linear-gradient(145deg, #1e2b35, #1e2b36);   
     cursor: pointer;
     :hover{
     box-shadow:   1px 1px 1px #11f7e2;
+    text-shadow: 0px 0px 8px #11f7e2;
     }
 `;
 

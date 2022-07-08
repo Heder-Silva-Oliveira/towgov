@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Container from "../../compoments/Container"
+import {Page } from './styles'
 
 
 class Users extends  React.Component{
@@ -9,7 +10,7 @@ class Users extends  React.Component{
            <>
      
                 <Container>
-                    <div><h1>Painel User</h1></div>
+                    <Page></Page>
                 </Container>
            
                             

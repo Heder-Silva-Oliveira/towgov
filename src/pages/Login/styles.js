@@ -62,6 +62,7 @@ export const Button =styled.button`
     cursor: pointer;
     :hover{
     box-shadow:   1px 1px 1px #11f7e2;
+    text-shadow: 0px 0px 8px #11f7e2;
     }
 
 `;
