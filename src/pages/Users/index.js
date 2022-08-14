@@ -10,7 +10,7 @@ class Users extends  React.Component{
            <>
      
                 <Container>
-                    <Page></Page>
+                    <Page>Ola</Page>
                 </Container>
            
                             
