@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Page = styled.div`
     display: flex;
-    width: 44cm;
+    width: 100%;
     height: 100vw;
     border-radius: 8px;
 
@@ -15,6 +15,7 @@ export const Img =styled.img`
 `;
 
 export const Logo = styled.div`
+    justify-content: center;
     position: absolute;
     display: inline-flex;
     align-items: inherit;
@@ -28,7 +29,8 @@ export const Logo = styled.div`
     display: inline-block;
     color:#fff ;
     margin-top: 65px;
-    margin-left: 205px;
+    margin-right: 100px;
+    margin-left: 100px;
     }
 
     img{
@@ -40,6 +42,7 @@ export const Logo = styled.div`
 `;
 
 export const Div = styled.div`
+    justify-items: center;
     
 `;
 

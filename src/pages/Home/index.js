@@ -19,15 +19,14 @@ class Home extends  React.Component{
             <Header></Header> 
             <Page>
                 <Img src={Fund}/>
-                     <Logo>
+                    <Logo>
                         <Div>
-                    <a href="https://www.novamonteverde.mt.gov.br/"><img src={Lban}/></a>
-                    <a href="https://www.carlinda.mt.gov.br/"><img src={Lcar}/></a>
-                    <a href="https://www.novabandeirantes.mt.gov.br/"><img src={Lmon}/></a>
-                    <a href="https://www.paranaita.mt.gov.br/"><img src={Lpar}/></a>               
-            </Div>
-            
-            </Logo> 
+                            <a href="https://www.novamonteverde.mt.gov.br/"><img src={Lban}/></a>
+                            <a href="https://www.carlinda.mt.gov.br/"><img src={Lcar}/></a>
+                            <a href="https://www.novabandeirantes.mt.gov.br/"><img src={Lmon}/></a>
+                            <a href="https://www.paranaita.mt.gov.br/"><img src={Lpar}/></a>               
+                        </Div>            
+                    </Logo> 
             </Page>
             <Footer></Footer>
                
